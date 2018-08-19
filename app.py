@@ -4,7 +4,7 @@ def soma(a,b=None):
         b = a
     
     if is_number(a) and is_number(b):
-        return float(a) - float(b)
+        return float(a) + float(b)
     else:
         return None
 
