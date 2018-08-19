@@ -2,4 +2,4 @@
 
 # calc
 Calculadora Python Básica - Teste TDD, CI e CD
-By Fred
+By Frederico
