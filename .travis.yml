@@ -1,5 +1,13 @@
 language: python
 python:
- - "3.6"
-install: pip install -r requirements.txt
-script: py.test -v -r f --cov=.  --cov-report=html
+  - "2.7"
+  - "3.5"
+  - "3.6"
+install: 
+  - pip install -r requirements.txt
+  - pip install coveralls
+script: 
+  - py.test -v -r f --cov=.  --cov-report=html
+  #- coverage run --source=home manage.py test home
+after_success:
+  - coveralls
