@@ -1,7 +1,7 @@
 def soma(a,b = None):
     
-    #if b == None:
-    #   b = a
+    if b == None:
+       b = a
     
     if is_number(a) and is_number(b):
         return float(a) + float(b)
