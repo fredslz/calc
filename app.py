@@ -1,4 +1,4 @@
-def soma(a,b=None):
+def soma(a,b):
     
     if b == None:
         b = a
