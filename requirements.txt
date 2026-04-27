@@ -4,6 +4,6 @@ coverage==4.5.1
 more-itertools==4.3.0
 pluggy==0.7.1
 py>=1.10.0
-pytest==3.7.2
+pytest==9.0.3
 pytest-cov==2.5.1
 six==1.11.0
